@@ -23,7 +23,7 @@ print x
 print "y:"
 print y
 for i in xrange(0,len(x)):
-	f10.write(""+str(x[i])+" "+str(y[i])+'\n')
+    f10.write(""+str(x[i])+" "+str(y[i])+'\n')
 
 print "len(x100):"
 print len(x100)
@@ -32,7 +32,7 @@ print x100
 print "y100:"
 print y100
 for i in xrange(0,len(x100)):
-	f100.write(""+str(x100[i])+" "+str(y100[i])+'\n')
+    f100.write(""+str(x100[i])+" "+str(y100[i])+'\n')
 
 ## plot the data
 plt.xlim((-0.1, 1.1))
